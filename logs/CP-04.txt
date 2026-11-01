@@ -1,0 +1,48 @@
+======================================================================
+CP-04 - Generación de llaves y estructura W3C VC v2.0
+Ejecutado: 2026-11-01 11:33:28
+======================================================================
+Llaves Ed25519 generadas para el emisor y el titular (datos de prueba).
+DID del emisor : did:web:tec.ac.cr
+DID del titular: did:key:z6Mkf12QFgtX5EijVW4u69GUztLgYfxNhppqaMkKKdGgCdqR
+
+Credencial JSON-LD (W3C VC v2.0):
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://schema.tec.ac.cr/microcredentials/v1"
+  ],
+  "id": "urn:uuid:7c9e6679-7425-40de-944b-e07fc1f90ae7",
+  "type": [
+    "VerifiableCredential",
+    "Microcredential",
+    "AcademicAchievementCredential"
+  ],
+  "issuer": {
+    "id": "did:web:tec.ac.cr",
+    "name": "Instituto Tecnológico de Costa Rica",
+    "department": "Escuela de Ingeniería en Computación"
+  },
+  "validFrom": "2026-10-15T00:00:00Z",
+  "validUntil": "2031-10-15T23:59:59Z",
+  "credentialStatus": {
+    "id": "https://credenciales.tec.ac.cr/status/2026#4182",
+    "type": "BitstringStatusListEntry",
+    "statusPurpose": "revocation",
+    "statusListIndex": "4182"
+  },
+  "credentialSubject": {
+    "id": "did:key:z6Mkf12QFgtX5EijVW4u69GUztLgYfxNhppqaMkKKdGgCdqR",
+    "name": "Nicole Gamboa Padilla",
+    "achievement": {
+      "identifier": "TEC-MIC-CLOUD-01",
+      "name": "Fundamentos de Computación en la Nube y Arquitectura Escalable",
+      "description": "Acredita el dominio técnico en diseño de arquitecturas distribuidas, contenerización y despliegue seguro en entornos de nube.",
+      "academicHours": 45,
+      "credits": 2,
+      "evaluationCriteria": "Aprobación con nota >= 80 en prueba práctica de laboratorio."
+    }
+  }
+}
+
+[OK] Estructura válida: contiene todos los campos obligatorios de W3C VC v2.0.

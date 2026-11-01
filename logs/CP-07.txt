@@ -1,0 +1,6 @@
+======================================================================
+CP-07 - Prueba de manipulación de datos (adulteración)
+Ejecutado: 2026-11-01 11:33:28
+======================================================================
+Se cambió un solo dato: créditos 2 -> 3 (la firma original NO se tocó).
+[ALERTA] Firma inválida. Se detectó manipulación de datos.

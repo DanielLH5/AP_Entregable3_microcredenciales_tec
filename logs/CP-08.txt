@@ -1,0 +1,12 @@
+======================================================================
+CP-08 - Consulta de estado de revocación (Bitstring Status List)
+Ejecutado: 2026-11-01 11:33:28
+======================================================================
+Índice consultado: #4182
+Tamaño de la lista: 131072 bits (0 = activa, 1 = revocada)
+
+Escenario A - bit en #4182: 0
+[ESTADO] Credencial activa y vigente en lista de estado.
+
+Escenario B (tras revocar) - bit en #4182: 1
+[ESTADO] Credencial REVOCADA. Ya no debe aceptarse.

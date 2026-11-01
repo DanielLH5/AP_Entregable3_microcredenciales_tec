@@ -1,0 +1,14 @@
+======================================================================
+CP-06 - Verificación exitosa de credencial íntegra
+Ejecutado: 2026-11-01 11:33:28
+======================================================================
+Nonce del verificador: 8b0f28a493879f10c78cba142a87fe12
+Verifiable Presentation (VP) armada y firmada por el titular.
+
+Comprobaciones del verificador:
+  [1] Nonce coincide con la solicitud : True
+  [2] Firma del titular válida         : True
+  [3] Emisor reconocido (did:web:tec.ac.cr) : True
+  [4] Firma del emisor válida          : True
+  [5] Dentro del periodo de validez     : True
+[OK] Firma válida. Credencial íntegra y auténtica.

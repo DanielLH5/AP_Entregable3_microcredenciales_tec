@@ -1,0 +1,7 @@
+======================================================================
+CP-05 - Firma criptográfica Ed25519 por el emisor
+Ejecutado: 2026-11-01 11:33:28
+======================================================================
+Firma (Base64): hdxv+id5EDJlqyNceK+Wbv7JA3eflA3owVkMQk79+YlXrDqKNnAHF+kDQ9B2VOHIxz1ajOIK9UDzITN+FEylCg==
+Vinculada a   : did:web:tec.ac.cr#key-1
+[OK] Credencial firmada con la clave privada del TEC.
